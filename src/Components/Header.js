@@ -55,7 +55,7 @@ class Header extends React.Component {
         event.preventDefault();
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/login',
+            url: 'https://zomo-api.herokuapp.com/login',
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {
@@ -67,7 +67,7 @@ class Header extends React.Component {
         event.preventDefault();
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/signup',
+            url: 'https://zomo-api.herokuapp.com/signup',
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {

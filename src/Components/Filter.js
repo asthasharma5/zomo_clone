@@ -31,7 +31,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/filter',
+            url: 'https://zomo-api.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -42,7 +42,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'GET',
-            url: 'http://localhost:4567/locations',
+            url: 'https://zomo-api.herokuapp.com/locations',
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {
@@ -69,7 +69,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/filter',
+            url: 'https://zomo-api.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -95,7 +95,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/filter',
+            url: 'https://zomo-api.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -120,7 +120,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/filter',
+            url: 'https://zomo-api.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -153,7 +153,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/filter',
+            url: 'https://zomo-api.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
@@ -181,7 +181,7 @@ class Filter extends React.Component {
 
         axios({
             method: 'POST',
-            url: 'http://localhost:4567/filter',
+            url: 'https://zomo-api.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })
